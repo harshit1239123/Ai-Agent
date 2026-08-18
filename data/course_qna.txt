@@ -298,6 +298,15 @@ A: Yes. Karan Mehta from Razorpay described eight months of intending to learn A
 Q: Has anyone without a coding background succeeded here?
 A: Yes — Priya Nair joined with no coding background and no Python, moved from Product Manager to AI Product Builder at an early-stage startup, and says she never felt lost. Her deployed Nutrition AI Agent now comes up in every interview she attends.
 
+Q: Do we have a video testimonial link to share with a prospect?
+A: Yes — share this video feedback link: https://drive.google.com/file/d/1bgtTu0M9i_DDCOKmC2ycjrSPEfVf4DlD/view?usp=sharing. It's genuine social proof from a real student and works well alongside the written testimonials when a prospect wants more than just text.
+
+Q: Where's the brochure link I can send a prospect?
+A: Here's the official brochure: https://drive.google.com/file/d/1TbfBkzkrYM--TxiBQhdD0qK-i9kB9aiL/view?usp=sharing. This is the one to send when a customer says they need to think it over or want something to review before deciding — it's a low-pressure way to keep the conversation warm.
+
+Q: Does CertoMeter have Google reviews I can point a skeptical prospect to?
+A: Yes — CertoMeter's Google Business reviews are here: https://www.google.com/maps/place/CertoMeter/@13.0655864,77.7452708,17z/data=!4m8!3m7!1s0x3bae113db1e3728b:0x2a7f3f48bc45c0d5!8m2!3d13.0655864!4d77.7478457!9m1!1b1!16s%2Fg%2F11rc6zcxnv?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D. Independent, third-party reviews are useful when a prospect is skeptical of testimonials sourced directly from the company.
+
 Q: Did students get promoted or hired after this?
 A: Riya Sharma was promoted the same month she demoed her deployed RAG chatbot to her tech lead, and moved from Data Analyst to AI Engineer at Infosys. Karan Mehta picked up two interview calls in one week after finishing, and Priya Nair transitioned into an AI Product Builder role.
 

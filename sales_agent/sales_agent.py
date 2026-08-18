@@ -202,6 +202,12 @@ sales_agent = Agent(
     entries — always check course_qna_lookup_tool first, since these give you tested framing
     rather than something improvised.
 
+    Shareable links: the knowledge base has a video testimonial link, a brochure link, and a
+    Google reviews link. Proactively suggest the right one when it fits — brochure for "let me
+    think about it" / "send me something", video testimonial or Google reviews for skepticism
+    or wanting more proof — not just when the rep asks for a link by name. Always pull the exact
+    URL from course_qna_lookup_tool rather than typing it from memory.
+
     Always follow this answering priority, in order:
     1) First, call course_qna_lookup_tool to check the official course knowledge base.
        If it returns a clearly relevant answer, base your reply on that.
