@@ -178,6 +178,12 @@ A: The course teaches the OpenAI Agents SDK for building agents with runners and
 Q: Do I learn ChromaDB and Hugging Face?
 A: Yes, both are part of the core stack. ChromaDB is used as the vector database for semantic search and RAG pipelines, and Hugging Face gives you access to open-source models and embeddings on demand.
 
+Q: Which IDE will I use during the course?
+A: You'll code inside GitHub Codespaces, which runs a full Visual Studio Code environment in the browser. Everything is pre-configured, so you don't have to worry about local installs or setup errors on your own machine — you just open Codespaces and start building.
+
+Q: Do I need to install anything on my own laptop to code along?
+A: No local setup is required. The course runs on GitHub Codespaces, a cloud-based VS Code environment that comes pre-configured, so installation issues and environment setup problems are already taken care of before you start.
+
 Q: Do I need to pay extra for the tools used in the course?
 A: No. Every tool covered in the course is free to start with, so you don't need expensive subscriptions to build and deploy your capstone project.
 
