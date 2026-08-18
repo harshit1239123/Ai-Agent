@@ -6,9 +6,25 @@ and indexes each pair into a Chroma collection so the sales agent can look up
 answers by semantic similarity.
 """
 
+import os
 from pathlib import Path
 
 import chromadb
+from chromadb.utils import embedding_functions
+
+
+def get_embedding_function():
+    """
+    Use OpenAI's embeddings API instead of Chroma's default local ONNX model.
+    The default model (all-MiniLM-L6-v2 via onnxruntime) needs to be downloaded
+    and loaded into memory to embed documents — on Render's free tier (512MB),
+    that alone was enough to OOM the whole app on every fresh deploy. Calling
+    OpenAI's API instead avoids running any model locally.
+    """
+    return embedding_functions.OpenAIEmbeddingFunction(
+        api_key=os.environ.get("OPENAI_API_KEY"),
+        model_name="text-embedding-3-small",
+    )
 
 
 def parse_qna_file(txt_path: str) -> list[dict]:
@@ -37,7 +53,12 @@ def parse_qna_file(txt_path: str) -> list[dict]:
     return pairs
 
 
-def setup_qna_chromadb(txt_path: str, chroma_path: str, collection_name: str = "course_qna_db"):
+def setup_qna_chromadb(
+    txt_path: str,
+    chroma_path: str,
+    collection_name: str = "course_qna_db",
+    embedding_function=None,
+):
     """
     Create and populate a ChromaDB collection with course Q&A pairs.
     """
@@ -55,6 +76,7 @@ def setup_qna_chromadb(txt_path: str, chroma_path: str, collection_name: str = "
     collection = client.create_collection(
         name=collection_name,
         metadata={"description": "AI Ultimate Course sales Q&A knowledge base"},
+        embedding_function=embedding_function or get_embedding_function(),
     )
 
     documents = [f"Q: {p['question']}\nA: {p['answer']}" for p in pairs]
@@ -68,6 +90,10 @@ def setup_qna_chromadb(txt_path: str, chroma_path: str, collection_name: str = "
 
 
 if __name__ == "__main__":
+    import dotenv
+
+    dotenv.load_dotenv()
+
     script_dir = Path(__file__).parent
     txt_path = script_dir.parent / "data" / "course_qna.txt"
     chroma_path = script_dir.parent / "chroma"

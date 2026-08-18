@@ -16,7 +16,7 @@ from agents.mcp import MCPServerStreamableHttp
 from openai.types.shared.reasoning import Reasoning
 from pydantic import BaseModel
 
-from create_qna_database import setup_qna_chromadb
+from create_qna_database import get_embedding_function, setup_qna_chromadb
 
 # The openai-agents SDK infers a default reasoning.effort per model from a regex
 # table (see agents/models/default_models.py) that recognizes "gpt-5", "gpt-5.1",
@@ -42,10 +42,19 @@ chroma_path = Path(__file__).parent.parent / "chroma"
 qna_txt_path = Path(__file__).parent.parent / "data" / "course_qna.txt"
 chroma_client = chromadb.PersistentClient(path=str(chroma_path))
 
+# Must pass the same embedding_function used at build time (create_qna_database.py) —
+# get_collection() otherwise silently defaults to Chroma's local ONNX model, which is
+# exactly the heavy local model we're avoiding by using OpenAI's embeddings API.
+_embedding_function = get_embedding_function()
+
 try:
-    course_qna_db = chroma_client.get_collection(name="course_qna_db")
+    course_qna_db = chroma_client.get_collection(
+        name="course_qna_db", embedding_function=_embedding_function
+    )
 except Exception:
-    course_qna_db = setup_qna_chromadb(str(qna_txt_path), str(chroma_path))
+    course_qna_db = setup_qna_chromadb(
+        str(qna_txt_path), str(chroma_path), embedding_function=_embedding_function
+    )
 
 
 @function_tool
