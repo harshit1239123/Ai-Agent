@@ -257,19 +257,19 @@ Q: Is there any post-course access to the material?
 A: Yes — recorded lectures stay with you for 6 months after the batch, and you also keep the AI Resource Bank, the Prompt Engineering Booklet and the 1000+ Q interview Q&A bank.
 
 Q: Who teaches this course?
-A: The instructor is Harshit Choudhary, a Director at Morgan Stanley based in Bengaluru. He's a full-stack builder and AI augmenter with 10+ years of teaching experience, and he teaches from active industry practice rather than theory.
+A: The instructor is Harshit Choudhary, a Director at Morgan Stanley based in Bengaluru. He's a full-stack builder and AI augmenter with 8+ years of teaching experience, and he teaches from active industry practice rather than theory.
 
 Q: Tell me about the instructor.
 A: Harshit Choudhary leads the course. He's a Director at Morgan Stanley in Bengaluru, a full-stack builder working with AI, and has trained 1000+ students across 100+ workshops with an average rating of 4.8+.
 
 Q: What are the instructor's credentials?
-A: Harshit Choudhary is a Director at Morgan Stanley with 10+ years of teaching experience. He has trained over 1000 students, conducted more than 100 workshops, and holds an average rating above 4.8.
+A: Harshit Choudhary is a Director at Morgan Stanley with 8+ years of teaching experience. He has trained over 1000 students, conducted more than 100 workshops, and holds an average rating above 4.8.
 
 Q: Is the instructor an active industry professional?
 A: Yes. Harshit Choudhary is currently a Director at Morgan Stanley and a practising full-stack builder, so the teaching comes from someone actively shipping rather than someone who only teaches.
 
 Q: How experienced is the teacher?
-A: He brings 10+ years of teaching experience alongside his current role as a Director at Morgan Stanley. Over that time he's trained 1000+ students across 100+ workshops and maintained a 4.8+ average rating.
+A: He brings 8+ years of teaching experience alongside his current role as a Director at Morgan Stanley. Over that time he's trained 1000+ students across 100+ workshops and maintained a 4.8+ average rating.
 
 Q: What results have past students seen?
 A: Over 1000 students have been trained across all batches and workshops, with an average course rating of 4.9 out of 5. Students report 3x more interview calls after completion, and 78% of those who completed the capstone got interviews within 60 days.
@@ -377,7 +377,7 @@ Q: What does hands-on mean in this course?
 A: It means you're writing and running real code during the live sessions, not observing. Across the modules you build agents, set up a vector database, construct a RAG pipeline, and deploy a multi-agent system to a live cloud URL.
 
 Q: How many seats are available per batch?
-A: Seats are limited and every batch has filled so far with no exceptions. The batches are deliberately kept small and intense so the sessions can stay hands-on.
+A: Seats are capped at 30 per batch, and every batch has filled so far with no exceptions. The batches are deliberately kept small and intense so the sessions can stay hands-on, not a passive webinar with hundreds of people. Confirm the current batch's exact seat availability and start date with the team before quoting one.
 
 Q: Why are the seats limited?
 A: Batches are kept small, intense and intentional so that the live sessions remain genuinely hands-on. Every batch has filled completely to date.
@@ -1356,3 +1356,74 @@ A: It fits best if you want to build and deploy AI systems rather than only unde
 
 Q: Will this course be relevant a year from now?
 A: The specific tools evolve, but the architecture doesn't — agents, retrieval, memory, tool-calling, guardrails and deployment are the durable patterns. The course also uses current industry-standard tooling rather than teaching-only alternatives, and the AI-901 certification reflects Microsoft's updated exam.
+
+
+Q: How do I handle a customer saying they'll just join the next batch?
+A: Counter with urgency rooted in reality, not pressure: every single batch so far has filled completely, with zero exceptions, and the price goes up for the next batch. Waiting doesn't save the customer time — it gives someone else a head start of a full batch cycle in deployable AI skills. A useful question to ask back: 'What's the cost of not starting now?' Keep it factual, not pushy.
+
+Q: How do I respond to a customer saying the course is too expensive?
+A: Break the price down transparently: the standalone value of everything included is ₹29,493 (₹9,999 for the live modules, ₹9,497 for the AI-901 certification training, mocks and exam voucher, plus recordings and the interview bank). They pay ₹16,999, a genuine 42% discount, GST-inclusive with zero hidden fees. Frame it as an investment rather than a cost — 78% of capstone completers got interviews within 60 days. Ask: 'What's one extra interview call worth to you?' This is a real, verifiable breakdown, not a manufactured discount — that's what makes it win-win rather than a hard sell.
+
+Q: How do I respond to a customer who says they can learn AI for free on YouTube?
+A: Acknowledge it honestly — free content genuinely exists and has value. Then contrast what it doesn't give them: no live instructor to unblock them, no structured build-up across sessions, no deployed project, no third-party certification, and no proof of work to show an employer. This course ends with a live URL, a Microsoft credential, a GitHub portfolio, and 1000+ interview Q&As. The honest pitch is 'free content teaches concepts, this gets you a shipped, verifiable outcome' — not that free content is worthless.
+
+Q: How do I sell this course to someone with zero technical background?
+A: Lead with Module 2's actual design: it assumes zero prior coding background and takes learners from variables to running real AI code within one session. Back it with a real example — a past student with no coding or Python background, coming from a Product Manager role, said she never felt lost, and her deployed Nutrition AI Agent now comes up in every interview she attends. Don't oversell speed — be honest that Module 1 is light and Module 2 moves at a beginner pace by design.
+
+Q: What's the strongest single thing to lead with when pitching this course?
+A: The capstone project. It isn't a tutorial clone or a sandbox demo — it's a real multi-agent AI system, deployed live on the cloud with a public URL, built using the same architecture pattern (orchestrator plus specialist agents) that production AI teams actually use. That live URL and GitHub repo are what get resume shortlists and come up in interviews — lead with the outcome, not the syllabus.
+
+Q: How do I communicate the value of the Microsoft AI-901 certification to a skeptical prospect?
+A: Position it as independent, third-party verification rather than a course completion badge. A completion certificate is self-issued by CertoMeter; the Microsoft AI-901 credential is globally recognised and independently verified, and it carries weight with hiring managers at MNCs specifically because CertoMeter didn't issue it. The exam voucher (₹3,499 standalone value) is included in the price — the customer isn't paying extra for that credibility.
+
+Q: How do I handle a customer who wants to think about it or discuss with family?
+A: Validate the decision first — this is a genuine investment and taking time to think it through is reasonable. Then add honest, factual urgency rather than manufactured pressure: seats are capped per batch and every batch so far has filled completely, and pricing increases for the next batch. Offer something low-pressure and concrete, like sharing the brochure or scheduling a follow-up call within 24 hours, rather than pushing for an answer on the spot.
+
+Q: What metrics and social proof can I use confidently during a sales call?
+A: 1000+ students trained, 100% of batches filled to date, a 4.9/5 average course rating, 3x more interview calls reported after completion, and 78% of capstone completers getting interviews within 60 days. Back these up with named testimonials: Riya Sharma (Data Analyst to AI Engineer at Infosys), Karan Mehta (Backend Developer at Razorpay), and Priya Nair (Product Manager to AI Product Builder, no prior coding background). Only use figures that are in the knowledge base — don't round up or invent additional stats.
+
+Q: How do I position this course for someone already working in tech who thinks it might be too basic for them?
+A: Point them straight at Modules 3 and 4 — vector databases, RAG pipelines, MCP tool-calling, multi-agent orchestration, guardrails, and cloud deployment. These are described as the infrastructure layer most AI courses skip entirely, and they're production-grade, not beginner content. It's fair to be upfront that Module 1 will be light and Module 2's Python section will move fast for someone with an engineering background — the value concentrates in Modules 3 and 4.
+
+Q: What's a good way to follow up with a warm lead who looked at the course but hasn't enrolled?
+A: A two-step, non-pushy follow-up works well: first, send a short personalised message referencing their specific role or goal plus one relevant testimonial that matches their background; second, if there's still no response, anchor gently on real scarcity — seats are capped and every batch has filled — and offer to answer any remaining questions rather than pushing for a close. Let the results and the honest facts do the persuading, not pressure.
+
+Q: Does the course have a refund policy — what should I tell a customer who asks?
+A: Don't state a specific refund policy — it isn't confirmed in this knowledge base. Tell the customer you'll get them the exact current terms from the official team, and direct them to confirm before enrolling. Never commit to a refund policy on a call without confirming it first.
+
+Q: How do I keep a pricing conversation win-win instead of feeling like a hard sell?
+A: Stay factual and let the real numbers carry the argument: the ₹29,493 standalone value, the ₹16,999 price, and the 42% discount are all genuine and verifiable — don't inflate or round them. Pair every price point with a concrete piece of value the customer gets for it (the AI-901 exam voucher, the live modules, the recordings), rather than pure urgency. Any urgency you use should be based on real, verifiable facts — seat caps and batch price increases that are actually true — never fabricated scarcity. The goal is for the customer to feel they got a genuine deal, not that they were pushed.
+
+
+Q: How do I explain what an orchestrator agent is to a prospect?
+A: The orchestrator is the top-level agent in a multi-agent system — it receives the user's request, breaks it into sub-tasks, and delegates them to specialist agents. In the course's own capstone, the Breakfast Advisor Agent is the orchestrator, coordinating a Calorie Counter, a Meal Planner and a Price Checker.
+
+Q: How do I explain a handoff to a non-technical prospect?
+A: A handoff is how one agent passes a task, along with its context, to another agent in a multi-agent pipeline — like one specialist handing a case file to another. It's the mechanism that lets an orchestrator delegate work to specialist agents rather than doing everything itself.
+
+Q: What is tool calling, in simple terms?
+A: Tool calling is an AI agent's ability to reach outside its own reasoning mid-conversation and use an external function — a live web search, a database lookup, a calculation — to get real, current information instead of guessing. It's how the course's capstone checks live ingredient prices instead of relying on stale training data.
+
+Q: What is a system prompt?
+A: A system prompt is the persistent instruction block that sets an agent's role, personality, and rules at the start of every session — it's what keeps an AI assistant behaving like, say, a nutrition advisor rather than answering random unrelated questions. The course covers this directly when building guardrails and agent instructions in Module 4.
+
+Q: What's the difference between zero-shot and few-shot prompting?
+A: Zero-shot means asking the model to do a task with no examples, relying entirely on what it already knows. Few-shot means giving it 2–5 worked examples in the prompt so it matches the exact format and reasoning style you want. Both are covered as core prompt engineering frameworks in Module 1.
+
+Q: What does 'temperature' mean when someone brings it up in an AI conversation?
+A: Temperature is a setting that controls how random or creative a model's output is — low temperature gives consistent, factual answers, high temperature gives more varied, creative ones. It's one of the OpenAI API parameters covered hands-on in Module 2.
+
+Q: What's the difference between IaaS, PaaS and SaaS, if a prospect asks?
+A: IaaS (Infrastructure as a Service) gives you raw compute and storage that you manage yourself, like a virtual machine. PaaS (Platform as a Service) gives you a managed runtime where you just deploy code and the platform handles the infrastructure. SaaS (Software as a Service) is fully managed software you use over the web with no infrastructure management at all, like an API endpoint. These come up in the AI-901 certification's cloud fundamentals content.
+
+Q: What is Azure OpenAI Service, and does the course cover it?
+A: Azure OpenAI Service is Microsoft's managed, enterprise-grade hosting of OpenAI models on Azure infrastructure. It's covered as part of the AI-901 certification prep in Module 4, alongside broader Azure AI fundamentals.
+
+Q: What does 'production-ready' mean when talking about this course's capstone?
+A: It means the system meets the bar for actually running in the real world — reliability, security, and observability — rather than being a one-off demo. The capstone gets there through guardrails, authentication, and a full cloud deployment pipeline, which is exactly what separates it from a localhost tutorial project.
+
+Q: What does 'AI-proof career' mean, and how does it apply to this course?
+A: It refers to a career path built on skills that AI automates away for other people, but that still require humans to build and maintain the AI systems themselves. AI Engineering is the clearest example — and it's the direction this course is built around, rather than skills that are more exposed to automation.
+
+Q: If a prospect asks what a 'RAG chatbot' actually is, how do I explain it?
+A: A RAG chatbot is one backed by a Retrieval-Augmented Generation pipeline — instead of answering purely from what the model memorised during training, it looks up relevant information from a specific knowledge base at the moment you ask, and grounds its answer in that. This course's own sales assistant and the Nutrition AI Agent capstone are both built exactly this way.

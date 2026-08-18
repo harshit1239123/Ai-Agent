@@ -97,9 +97,9 @@ async def on_message(message: cl.Message):
     except InputGuardrailTripwireTriggered:
         await cl.Message(
             content=(
-                "I'm the sales assistant for the AI Ultimate Course, so I can only help "
-                "with questions about the course, AI learning, or enrollment. "
-                "Feel free to ask me anything about that!"
+                "I'm the sales-call assistant for the AI Ultimate Course, so I can only help "
+                "with questions/objections from a customer call, or course details. "
+                "Try typing the customer's actual question."
             )
         ).send()
 
