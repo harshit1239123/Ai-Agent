@@ -436,6 +436,24 @@ A: The course includes 1-on-1 career guidance with a personalized AI career path
 Q: Will someone help me figure out my career direction?
 A: Yes. A personalized 1-on-1 career guidance session is included as a free bonus, and it maps out your AI career path based on your background rather than giving generic advice.
 
+Q: Do you help with my resume and Naukri profile too, or just LinkedIn and GitHub?
+A: Career support covers your resume and Naukri profile as well as LinkedIn and GitHub. The goal across all of them is the same — make sure your profile actually reflects the deployed multi-agent project you built, so you show up better in recruiter searches and get more visibility for relevant roles.
+
+Q: Will I understand what actually happens behind the scenes when I use a chatbot?
+A: Yes. The course gives you end-to-end visibility into what happens when you type a query into a chatbot — how the prompt is processed, how the model reasons, how tokens are generated, and how the response comes back. This demystifies AI instead of leaving it a black box.
+
+Q: Will this help me talk to leadership or management about AI?
+A: Yes. Once you understand how AI systems actually work under the hood, you're able to ask sharper, more informed questions in conversations with leadership — for example about token-per-million pricing or model tradeoffs — and contribute meaningfully to AI adoption decisions within your organization.
+
+Q: Will I be able to hold my own in AI discussions and presentations?
+A: That's a direct outcome of the course. Beyond building skills, you come away with a strong AI vocabulary and real end-to-end understanding of how these systems work, which lets you stand out and speak credibly in AI discussions and presentations rather than just repeating buzzwords.
+
+Q: What are the three pillars of this course?
+A: The course is built around three pillars. First, live building skills — 12+ hours of live classes where you build a real project and deploy it to a live URL, so you have proof you can ship, not just a certificate saying you attended. Second, Microsoft certification — third-party verification from an established company that builds trust in your profile beyond your own word. Third, AI tools mastery — a recorded library of 100+ AI tools so you learn to pick the right tool for each job instead of relying on one tool for everything, which makes you meaningfully more productive.
+
+Q: Can you break down the course into simple parts?
+A: Think of it as three pillars plus career support. Pillar one is live, hands-on building that ends in a deployed project with a real URL. Pillar two is a Microsoft certification that verifies your skills to employers. Pillar three is an AI tools mastery library of 100+ recorded lessons so you know which tool to reach for instead of forcing one tool to do everything. On top of that, you get help with your LinkedIn, resume, GitHub and Naukri profiles to convert that work into real job visibility.
+
 Q: Is the ₹16,999 worth it?
 A: The components add up to ₹29,493 if bought separately — ₹9,999 for the 4 live modules, ₹3,999 for the AI tools mastery, ₹3,999 for Azure AI-901 training, ₹3,499 for the exam voucher, ₹1,999 for mock exams, ₹2,999 for 6 months of recordings and ₹2,999 for the interview Q&A bank. At ₹16,999 you save ₹12,494, and the exam voucher alone covers a fifth of the fee.
 
