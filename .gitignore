@@ -5,6 +5,11 @@
 .DS_Store
 .claude
 
+# ChromaDB vector store: binary, produced by platform/Python-version-specific
+# Rust bindings — not portable across environments. Built fresh from
+# data/course_qna.txt on first run instead (see sales_agent/sales_agent.py).
+/chroma/
+
 # Node.js / npm
 node_modules/
 npm-debug.log*

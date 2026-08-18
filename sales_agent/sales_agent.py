@@ -16,6 +16,8 @@ from agents.mcp import MCPServerStreamableHttp
 from openai.types.shared.reasoning import Reasoning
 from pydantic import BaseModel
 
+from create_qna_database import setup_qna_chromadb
+
 # The openai-agents SDK infers a default reasoning.effort per model from a regex
 # table (see agents/models/default_models.py) that recognizes "gpt-5", "gpt-5.1",
 # "gpt-5.4-nano", etc., but not plain "gpt-5-nano" — for that it falls through to
@@ -25,19 +27,25 @@ from pydantic import BaseModel
 # here sidesteps that gap regardless of which model OPENAI_DEFAULT_MODEL is set to.
 DEFAULT_MODEL_SETTINGS = ModelSettings(reasoning=Reasoning(effort="low"), verbosity="low")
 
-# --- RAG: Course Q&A knowledge base (built by create_qna_database.py) ---
+# --- RAG: Course Q&A knowledge base ---
+#
+# The chroma/ vector store is NOT committed to git — it's a binary SQLite file
+# produced by chromadb's compiled Rust bindings, which are platform- and
+# Python-version-specific. A file built locally (e.g. Windows/Python 3.10) can
+# crash a different environment (e.g. Render's Linux/Python 3.13) with a Rust
+# panic the instant it's opened, before any of our code even runs. So instead
+# it's built fresh from data/course_qna.txt on first run in whatever
+# environment is actually running the app, guaranteeing it's always written
+# by the exact chromadb build that will read it.
 
 chroma_path = Path(__file__).parent.parent / "chroma"
+qna_txt_path = Path(__file__).parent.parent / "data" / "course_qna.txt"
 chroma_client = chromadb.PersistentClient(path=str(chroma_path))
 
 try:
     course_qna_db = chroma_client.get_collection(name="course_qna_db")
-except Exception as exc:
-    raise RuntimeError(
-        "Course Q&A knowledge base not found in the 'chroma' directory. "
-        "Run 'python sales_agent/create_qna_database.py' first to build it "
-        "from data/course_qna.txt."
-    ) from exc
+except Exception:
+    course_qna_db = setup_qna_chromadb(str(qna_txt_path), str(chroma_path))
 
 
 @function_tool
