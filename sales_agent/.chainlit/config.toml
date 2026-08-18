@@ -88,7 +88,7 @@ reaction_on_message_received = false
 # Name of the assistant.
 name = "Assistant"
 
-# default_theme = "light"
+default_theme = "light"
 
 # layout = "wide"
 
